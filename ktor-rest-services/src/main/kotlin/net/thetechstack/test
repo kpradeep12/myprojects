@@ -1,0 +1,23 @@
+Java 9 -> {
+  Modules,
+  JShell,
+  Jlink,
+  Private methods in interfaces,
+  Factory methods for Immutable List, Set, Map and Map.Entry
+}
+
+Java 10 -> {
+  Local-Variable type inference
+}
+
+Java 11 -> {
+  Http Client,
+  Local-Variable syntax for Lambda parameters,
+  Launch single-file source-code programs
+}
+
+Java 12 -> {
+  New switch expression
+}
+
+

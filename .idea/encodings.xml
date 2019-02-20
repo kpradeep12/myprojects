@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kotlin-exposed" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ktor-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ktor-rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ktor-rest-services" charset="UTF-8" />
   </component>
 </project>

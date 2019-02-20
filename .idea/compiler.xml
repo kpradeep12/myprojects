@@ -7,7 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="kotlinexposed" />
-        <module name="ktor-api" />
+        <module name="ktor-rest" />
+        <module name="ktor-rest-services" />
       </profile>
     </annotationProcessing>
   </component>
