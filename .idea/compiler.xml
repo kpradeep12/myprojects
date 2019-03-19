@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hello-kotlin" />
+        <module name="kotlin-exposed" />
         <module name="kotlinexposed" />
+        <module name="ktor-freemarker" />
         <module name="ktor-rest" />
         <module name="ktor-rest-services" />
       </profile>
