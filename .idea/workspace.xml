@@ -1,72 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ae79152-570f-466d-8c94-f81dd4cd3d60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hello-kotlin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-kotlin/hello-kotlin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-kotlin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-kotlin/serverless.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-kotlin/src/main/kotlin/com/serverless/ApiGatewayResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-kotlin/src/main/kotlin/com/serverless/Handler.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-kotlin/src/main/kotlin/com/serverless/Response.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-kotlin/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-kotlin/src/test/kotlin/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ktor-freemarker/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ktor-freemarker/src/main/kotlin/net/thetechstack/Application.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ktor-freemarker/src/main/kotlin/net/thetechstack/dao/DAOFacadeDatabase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ktor-freemarker/src/main/kotlin/net/thetechstack/dao/Employees.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ktor-freemarker/src/main/kotlin/net/thetechstack/model/Employee.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ktor-freemarker/src/main/resources/templates/employee.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ktor-freemarker/src/main/resources/templates/index.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ktor-freemarker/src/main/resources/templates/template.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ktor-freemarker/src/test/kotlin/net/thetechstack/HelloTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ktor-freemarker/target/classes/META-INF/ktor-freemarker.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ktor-freemarker/target/classes/templates/employee.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ktor-freemarker/target/classes/templates/index.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ktor-freemarker/target/classes/templates/template.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ktor-freemarker/target/test-classes/META-INF/ktor-freemarker.kotlin_module" afterDir="false" />
+    <list default="true" id="a12ab601-cd9f-45ff-ab20-704b5ddc5e95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/test/kotlin/net/thetechstack/cache/LRUCacheTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/pradeep.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myprojects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myprojects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-exposed/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-exposed/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-exposed/target/classes/net/thetechstack/Companies.class" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-exposed/target/classes/net/thetechstack/Companies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-exposed/target/classes/net/thetechstack/Employees.class" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-exposed/target/classes/net/thetechstack/Employees.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-exposed/target/classes/net/thetechstack/ExposedDemoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-exposed/target/classes/net/thetechstack/ExposedDemoKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-exposed/target/test-classes/net/thetechstack/HelloTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-exposed/target/test-classes/net/thetechstack/HelloTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ktor-rest-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ktor-rest-services/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ktor-rest-services/target/classes/net/thetechstack/ApplicationKt$main$1$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ktor-rest-services/target/classes/net/thetechstack/ApplicationKt$main$1$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ktor-rest-services/target/classes/net/thetechstack/ApplicationKt$main$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/ktor-rest-services/target/classes/net/thetechstack/ApplicationKt$main$1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ktor-rest-services/target/classes/net/thetechstack/ApplicationKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ktor-rest-services/target/classes/net/thetechstack/ApplicationKt$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ktor-rest-services/target/classes/net/thetechstack/ApplicationKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/ktor-rest-services/target/classes/net/thetechstack/ApplicationKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ktor-rest-services/target/classes/net/thetechstack/dao/DAOFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/ktor-rest-services/target/classes/net/thetechstack/dao/DAOFacade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ktor-rest-services/target/classes/net/thetechstack/dao/DAOFacadeDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/ktor-rest-services/target/classes/net/thetechstack/dao/DAOFacadeDatabase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ktor-rest-services/target/classes/net/thetechstack/dao/Employees.class" beforeDir="false" afterPath="$PROJECT_DIR$/ktor-rest-services/target/classes/net/thetechstack/dao/Employees.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ktor-rest-services/target/classes/net/thetechstack/model/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/ktor-rest-services/target/classes/net/thetechstack/model/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ktor-rest-services/target/test-classes/net/thetechstack/HelloTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ktor-rest-services/target/test-classes/net/thetechstack/HelloTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ktor-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ktor-rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-kotlin/hello-kotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-kotlin/hello-kotlin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/kotlin-exposed/target/" />
-    <ignored path="$PROJECT_DIR$/ktor-api/target/" />
-    <ignored path="$PROJECT_DIR$/ktor-rest-services/target/" />
-    <ignored path="$PROJECT_DIR$/ktor-rest/target/" />
-    <ignored path="$PROJECT_DIR$/ktor-freemarker/target/" />
-    <ignored path="$PROJECT_DIR$/hello-kotlin/target/" />
+    <ignored path="$PROJECT_DIR$/design-patterns/target/" />
+    <ignored path="$PROJECT_DIR$/algorithms/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="kotlin-dynamodb" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hello-kotlin/serverless.yml">
+        <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/net/thetechstack/concurrency/future/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+            <state relative-caret-position="512">
+              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -76,20 +41,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
         <option value="Kotlin File" />
-        <option value="Kotlin Script" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>varchar</find>
-      <find>primarykey</find>
-      <find>references</find>
-      <find>foreach</find>
-      <find>port</find>
-      <find>repos</find>
+      <find>expose</find>
+      <find>ref</find>
+      <find>com.mysql.jdbc.Driver</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -98,32 +62,45 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ktor-api/src/main/kotlin/net/thetechstack/model/Employee.kt" />
-        <option value="$PROJECT_DIR$/kotlin-exposed/src/main/kotlin/net/thetechstack/ExposedDemo.kt" />
-        <option value="$PROJECT_DIR$/ktor-api/src/main/kotlin/net/thetechstack/dao/Employees.kt" />
-        <option value="$PROJECT_DIR$/ktor-api/src/main/kotlin/net/thetechstack/dao/DAOFacadeDatabase.kt" />
-        <option value="$PROJECT_DIR$/ktor-api/src/main/kotlin/net/thetechstack/Application.kt" />
-        <option value="$PROJECT_DIR$/ktor-api/src/main/kotlin/net/thetechstack/Greeting.kt" />
-        <option value="$PROJECT_DIR$/ktor-api/src/main/kotlin/net/thetechstack/Greeting.java" />
-        <option value="$PROJECT_DIR$/ktor-api/src/main/kotlin/Greeting.java" />
-        <option value="$PROJECT_DIR$/ktor-api/src/main/kotlin/Greeting.kts" />
-        <option value="$PROJECT_DIR$/ktor-api/src/main/kotlin/Greeting.kt" />
-        <option value="$PROJECT_DIR$/ktor-api/pom.xml" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/model/User.kt" />
+        <option value="$PROJECT_DIR$/design-patterns/src/test/kotlin/net/thetechstack/cache/LRUCacheTest.java" />
+        <option value="$PROJECT_DIR$/design-patterns/src/test/kotlin/net/thetechstack/cache/LRUCacheTest0.java" />
+        <option value="$PROJECT_DIR$/design-patterns/src/test/kotlin/net/thetechstack/cache/DequeTest.java" />
+        <option value="$PROJECT_DIR$/design-patterns/src/test/kotlin/net/thetechstack/cache/DequeTest0.java" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/cache/Deque.kt" />
+        <option value="$PROJECT_DIR$/design-patterns/src/test/kotlin/net/thetechstack/cache/DequeTest.kt" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/cache/CacheWindow.kt" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/cache/DbManager.kt" />
+        <option value="$PROJECT_DIR$/design-patterns/src/test/kotlin/net/thetechstack/cache/LRUCacheTest.kt" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/cache/User.kt" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/cache/Player.kt" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/cache/LRUCache.kt" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/cache/CacheManager.kt" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/concurrency/asyncmethod/AsyncCallback.java" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/concurrency/asyncmethod/AsyncExecutor.java" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/concurrency/asyncmethod/AsyncResult.java" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/concurrency/asyncmethod/ThreadAsyncExecutor.java" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/concurrency/asyncmethod/App.java" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/concurrency/future/App.java" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/cache/UserDbManager.kt" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/ktor-rest/src/main/kotlin/net/thetechstack/Hello.kt" />
-        <option value="$PROJECT_DIR$/ktor-rest-services/src/main/kotlin/net/thetechstack/test" />
-        <option value="$PROJECT_DIR$/ktor-rest/src/main/kotlin/net/thetechstack/Application.kt" />
-        <option value="$PROJECT_DIR$/ktor-freemarker/src/main/kotlin/net/thetechstack/dao/DAOFacadeDatabase.kt" />
-        <option value="$PROJECT_DIR$/ktor-freemarker/src/main/resources/templates/employee.ftl" />
-        <option value="$PROJECT_DIR$/ktor-freemarker/src/main/kotlin/net/thetechstack/Application.kt" />
-        <option value="$PROJECT_DIR$/ktor-freemarker/src/main/resources/templates/template.ftl" />
-        <option value="$PROJECT_DIR$/ktor-freemarker/src/main/resources/templates/index.ftl" />
-        <option value="$PROJECT_DIR$/kotlin-exposed/pom.xml" />
-        <option value="$PROJECT_DIR$/ktor-rest-services/pom.xml" />
-        <option value="$PROJECT_DIR$/ktor-rest/pom.xml" />
-        <option value="$PROJECT_DIR$/ktor-freemarker/pom.xml" />
-        <option value="$PROJECT_DIR$/hello-kotlin/pom.xml" />
-        <option value="$PROJECT_DIR$/hello-kotlin/serverless.yml" />
+        <option value="$PROJECT_DIR$/design-patterns/pom.xml" />
+        <option value="$PROJECT_DIR$/algorithms/src/test/java/net/thetechstack/AppTest.java" />
+        <option value="$PROJECT_DIR$/algorithms/src/main/java/net/thetechstack/graph/App.java" />
+        <option value="$PROJECT_DIR$/algorithms/src/main/java/net/thetechstack/graph/Graph.java" />
+        <option value="$PROJECT_DIR$/algorithms/src/main/kotlin/net/thetechstack/graph/Graph.kt" />
+        <option value="$PROJECT_DIR$/algorithms/pom.xml" />
+        <option value="$PROJECT_DIR$/algorithms/src/main/kotlin/net/thetechstack/kotlin/graph/Graph.kt" />
+        <option value="$PROJECT_DIR$/algorithms/src/main/java/net/thetechstack/java/graph/DepthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/algorithms/src/main/java/net/thetechstack/java/graph/BreadthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/algorithms/src/main/java/net/thetechstack/java/graph/Traversal.java" />
+        <option value="$PROJECT_DIR$/algorithms/src/main/java/net/thetechstack/java/graph/Graph.java" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/concurrency/future/AsyncResult.java" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/concurrency/future/AsyncExecutor.java" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/concurrency/future/App.java" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/concurrency/future/ThreadAsyncExecutor.java" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/java/net/thetechstack/future/App.java" />
+        <option value="$PROJECT_DIR$/design-patterns/src/main/java/net/thetechstack/concurrency/future/App.java" />
       </list>
     </option>
   </component>
@@ -139,12 +116,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="net.thetechstack kotlin-exposed" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="net.thetechstack kotlin-exposed" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="net.thetechstack design-patterns" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -152,62 +124,92 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="733" />
+    <option name="width" value="946" />
+    <option name="height" value="546" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="myprojects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin-dynamodb" type="b2602c69:ProjectViewProjectNode" />
               <item name="myprojects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="myprojects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin-dynamodb" type="b2602c69:ProjectViewProjectNode" />
               <item name="myprojects" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="myprojects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin-dynamodb" type="b2602c69:ProjectViewProjectNode" />
               <item name="myprojects" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-dynamodb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myprojects" type="462c0819:PsiDirectoryNode" />
+              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-dynamodb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myprojects" type="462c0819:PsiDirectoryNode" />
+              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-dynamodb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myprojects" type="462c0819:PsiDirectoryNode" />
+              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553032597814" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557834884133" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="net.thetechstack.dao" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="net.thetechstack.cache" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ktor-freemarker/src/main/kotlin/net/thetechstack" />
-      <recent name="$PROJECT_DIR$/ktor-freemarker/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/ktor-rest/src/main/kotlin/net/thetechstack" />
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="net.thetechstack.cache" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ktor-api/src/main/kotlin" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="net.thetechstack" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -222,7 +224,63 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.net.thetechstack.ApplicationKt (1)">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.thetechstack.concurrency.future.App" />
+      <module name="design-patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.thetechstack.concurrency.future.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.thetechstack.java.graph.BreadthFirstSearch" />
+      <module name="algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.thetechstack.java.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.thetechstack.java.graph.DepthFirstSearch" />
+      <module name="algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.thetechstack.java.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Graph (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.thetechstack.java.graph.Graph" />
+      <module name="algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.thetechstack.java.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -236,53 +294,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="net.thetechstack.ApplicationKt (1)" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="ktor-freemarker" />
+    <configuration name="net.thetechstack.kotlin.graph.GraphKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="net.thetechstack.ApplicationKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="net.thetechstack.ApplicationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="ktor-rest-services" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="net.thetechstack.ApplicationKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="net.thetechstack.ApplicationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="ktor-rest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="net.thetechstack.ApplicationKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="net.thetechstack.ExposedDemoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinexposed" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="net.thetechstack.ExposedDemoKt" />
+      <option name="MAIN_CLASS_NAME" value="net.thetechstack.kotlin.graph.GraphKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -297,17 +316,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Kotlin.net.thetechstack.ExposedDemoKt" />
-      <item itemvalue="Kotlin.net.thetechstack.ApplicationKt" />
-      <item itemvalue="Kotlin.net.thetechstack.ApplicationKt (1)" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.net.thetechstack.ApplicationKt (1)" />
-        <item itemvalue="Kotlin.net.thetechstack.ApplicationKt" />
-        <item itemvalue="Kotlin.net.thetechstack.ApplicationKt" />
-        <item itemvalue="Kotlin.net.thetechstack.ExposedDemoKt" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Graph (1)" />
+        <item itemvalue="Application.BreadthFirstSearch" />
+        <item itemvalue="Application.DepthFirstSearch" />
+        <item itemvalue="Kotlin.net.thetechstack.kotlin.graph.GraphKt" />
       </list>
     </recent_temporary>
   </component>
@@ -316,281 +331,169 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5ae79152-570f-466d-8c94-f81dd4cd3d60" name="Default Changelist" comment="" />
-      <created>1549407224823</created>
+      <changelist id="a12ab601-cd9f-45ff-ab20-704b5ddc5e95" name="Default Changelist" comment="" />
+      <created>1553950102129</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1549407224823</updated>
+      <updated>1553950102129</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="LRUCacheTest - 2019.04.17 at 07h 48m 57s.xml">
+      <configuration name="LRUCacheTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LRUCacheTest - 2019.04.17 at 07h 51m 18s.xml">
+      <configuration name="LRUCacheTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LRUCacheTest - 2019.04.17 at 07h 57m 29s.xml">
+      <configuration name="LRUCacheTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LRUCacheTest_test_with_1_size - 2019.04.17 at 07h 57m 38s.xml">
+      <configuration name="LRUCacheTest.test with 1 size" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LRUCacheTest_test_with_1_size - 2019.04.17 at 07h 58m 05s.xml">
+      <configuration name="LRUCacheTest.test with 1 size" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LRUCacheTest_test_with_1_size - 2019.04.17 at 08h 02m 25s.xml">
+      <configuration name="LRUCacheTest.test with 1 size" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LRUCacheTest_overflow_capacity - 2019.04.17 at 08h 05m 20s.xml">
+      <configuration name="LRUCacheTest.overflow capacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LRUCacheTest_overflow_capacity - 2019.04.17 at 08h 05m 41s.xml">
+      <configuration name="LRUCacheTest.overflow capacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LRUCacheTest_overflow_capacity - 2019.04.17 at 08h 06m 31s.xml">
+      <configuration name="LRUCacheTest.overflow capacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LRUCacheTest - 2019.04.17 at 08h 06m 42s.xml">
+      <configuration name="LRUCacheTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="733" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24071082" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985507" weight="0.18497577" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="1.0" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="right" id="Maven" weight="0.32956383" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Key Promoter X" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32956383" />
-      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Run" order="9" weight="0.23021002" />
-      <window_info anchor="right" id="Messages" order="10" weight="0.32714054" />
-      <window_info anchor="right" id="Kotlin Bytecode" order="11" show_stripe_button="false" weight="0.32956383" />
+      <window_info id="Favorites" order="6" sideWeight="0.5014493" side_tool="true" weight="0.1825525" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3289855" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.3289855" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32956383" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Key Promoter X" order="8" />
+      <window_info active="true" anchor="right" id="Run" order="9" visible="true" weight="0.27544427" />
+      <window_info anchor="right" id="Messages" order="10" weight="0.32875606" />
+      <window_info anchor="right" id="Kotlin Bytecode" order="11" weight="0.32956383" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1125" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.22386588" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Key Promoter X" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Run" order="9" visible="true" weight="0.1796875" />
-      <window_info anchor="right" id="Messages" order="10" weight="0.32714054" />
-      <window_info anchor="right" id="Kotlin Bytecode" order="11" show_stripe_button="false" weight="0.32956383" />
-    </layout-to-restore>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>adjNodes.get(node)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.20/kotlin-stdlib-common-1.3.20-sources.jar!/generated/_Collections.kt">
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/test/kotlin/net/thetechstack/HelloTest.kt" />
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/Hello.kt" />
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/test/kotlin/net/thetechstack/cache/LRUCacheTest0.java" />
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/test/kotlin/net/thetechstack/cache/DequeTest0.java" />
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/cache/Deque.kt" />
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/test/kotlin/net/thetechstack/cache/DequeTest.kt" />
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/kotlin/concurrency/asyncmethod/AsyncCallback.java" />
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/resources/cache.properties" />
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/cache/UserDbManager.kt" />
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/cache/CacheWindow.kt" />
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/kotlin/net/thetechstack/cache/Player.kt" />
+    <entry file="file://$PROJECT_DIR$/algorithms/src/test/java/net/thetechstack/AppTest.java" />
+    <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/net/thetechstack/App.java" />
+    <entry file="file://$PROJECT_DIR$/algorithms/src/main/kotlin/net/thetechstack/java/graph/Graph.kt" />
+    <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/net/thetechstack/java/graph/BreadthFirstSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="1369" selection-start-line="1369" selection-end-line="1369" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlin-exposed/src/main/kotlin/net/thetechstack/ExposedDemo.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="159">
+          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="53" selection-end-column="39" />
           <folding>
-            <element signature="e#26#118#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/ktor/ktor-utils-jvm/1.1.2/ktor-utils-jvm-1.1.2.jar!/io/ktor/util/pipeline/SuspendFunctionGun.class">
+    <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/net/thetechstack/java/graph/DepthFirstSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.24.Final/netty-common-4.1.24.Final-sources.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="403" selection-start-line="403" selection-end-line="403" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-api/src/main/kotlin/Greeting.kts" />
-    <entry file="file://$PROJECT_DIR$/ktor-api/src/main/kotlin/Greeting.kt" />
-    <entry file="file://$PROJECT_DIR$/ktor-api/src/main/kotlin/Greeting.java" />
-    <entry file="file://$PROJECT_DIR$/ktor-rest-services/src/main/kotlin/net/thetechstack/test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/ktor/ktor-server-host-common/1.1.2/ktor-server-host-common-1.1.2.jar!/io/ktor/server/engine/EmbeddedServerKt.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="135" selection-start-line="7" selection-start-column="135" selection-end-line="7" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-rest-services/src/main/kotlin/net/thetechstack/dao/Employees.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-rest-services/src/main/kotlin/net/thetechstack/model/Employee.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="31" lean-forward="true" selection-end-line="3" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-rest-services/src/main/kotlin/net/thetechstack/dao/DAOFacadeDatabase.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="63" column="1" lean-forward="true" selection-start-line="16" selection-end-line="63" selection-end-column="1" />
+        <state relative-caret-position="102">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
           <folding>
-            <element signature="e#30#186#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-rest/src/main/kotlin/net/thetechstack/model/Employee.kt">
+    <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/net/thetechstack/java/graph/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-rest/src/main/kotlin/net/thetechstack/dao/DAOFacadeDatabase.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-rest-services/src/main/kotlin/net/thetechstack/Application.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="47" selection-end-column="1" />
+        <state relative-caret-position="398">
+          <caret line="80" column="41" lean-forward="true" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
           <folding>
-            <element signature="e#26#566#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#3272#3273#0" expanded="true" />
+            <element signature="e#3324#3325#0" expanded="true" />
+            <element signature="e#3425#3426#0" expanded="true" />
+            <element signature="e#3502#3503#0" expanded="true" />
+            <element signature="e#3578#3579#0" expanded="true" />
+            <element signature="e#3655#3656#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-rest/src/main/kotlin/net/thetechstack/dao/Employees.kt">
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/net/thetechstack/concurrency/future/AsyncExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="132">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-freemarker/src/main/kotlin/net/thetechstack/model/Employee.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-freemarker/src/main/kotlin/net/thetechstack/dao/Employees.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-freemarker/src/main/kotlin/net/thetechstack/dao/DAOFacadeDatabase.kt">
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/net/thetechstack/concurrency/future/AsyncResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="e#30#186#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-freemarker/src/main/kotlin/net/thetechstack/Application.kt">
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/net/thetechstack/concurrency/future/ThreadAsyncExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-rest/src/main/kotlin/net/thetechstack/Application.kt">
+    <entry file="file://$PROJECT_DIR$/design-patterns/src/main/java/net/thetechstack/concurrency/future/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-freemarker/src/main/resources/templates/employee.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-freemarker/src/main/resources/templates/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="11" column="17" lean-forward="true" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-freemarker/src/main/resources/templates/template.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="16" column="20" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlin-exposed/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="66" column="49" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-rest-services/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-rest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktor-freemarker/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-kotlin/hello.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-kotlin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-kotlin/serverless.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+        <state relative-caret-position="512">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -646,7 +549,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>myprojects</last-edited>
+          <last-edited>design-patterns</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

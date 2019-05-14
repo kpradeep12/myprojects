@@ -9,9 +9,11 @@
     <modules>
         <module>kotlin-exposed</module>
         <module>ktor-rest-services</module>
-    <module>ktor-rest</module>
-    <module>ktor-freemarker</module>
-    <module>hello-kotlin</module>
+        <module>ktor-rest</module>
+        <module>ktor-freemarker</module>
+        <module>hello-kotlin</module>
+        <module>design-patterns</module>
+        <module>algorithms</module>
   </modules>
     <packaging>pom</packaging>
 
