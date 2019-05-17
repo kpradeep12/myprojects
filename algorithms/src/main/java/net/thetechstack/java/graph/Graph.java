@@ -59,32 +59,29 @@ class Graph {
         return adjNodes.get(node);
     }
     boolean isDirected() {return isDirected; }
-int edgeCount = 0;
-    public void bfs(Node root, Traversal traversal){
+
+    void bfs(Node root, Traversal traversal){
 
         Queue<Node> queue = new LinkedList<>();
         List<Node> visited = new ArrayList<>();
-        List<Node> processed = new ArrayList<>();
-        Map<Node, Node> relation = new HashMap<>();
+        Node[] parent = new Node[adjNodes.size()];
         queue.add(root);
         visited.add(root);
         while(!queue.isEmpty()) {
             Node node = queue.poll();
-            processed.add(node);
             traversal.processNodeEarly(node);
             this.getAdjList(node).forEach(element -> {
-                if((!processed.contains(element)) || isDirected()){
-                    traversal.processEdge(node, element);
-                    System.out.println(++edgeCount);
-                }
                 if(!visited.contains(element)) {
                     visited.add(element);
                     queue.add(element);
-                    System.out.println(queue);
-                    relation.put(node,element);
+                    parent[element.data] = node;
                 }
             });
             traversal.processNodeLate(node);
+        }
+        for(int i=0; i<parent.length; i++){
+            if(parent[i] != null)
+                System.out.printf("%d -> %d %n", i, parent[i].data);
         }
     }
     public void dfs(Node root){
@@ -121,11 +118,6 @@ int edgeCount = 0;
             @Override
             public void processNodeLate(Node node) {
                 System.out.printf("process late %s%n", node);
-            }
-
-            @Override
-            public void processEdge(Node a, Node b) {
-                System.out.printf("process edge %s - %s %n", a, b);
             }
         });
     }

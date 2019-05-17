@@ -32,7 +32,7 @@ public class ThreadAsyncExecutor implements AsyncExecutor {
             this.callback = callback;
         }
 
-        void setValue(T value) {
+        private void setValue(T value) {
             this.state = COMPLETED;
             callback.accept(value, Optional.empty());
             synchronized (lock) {
@@ -40,7 +40,7 @@ public class ThreadAsyncExecutor implements AsyncExecutor {
             }
         }
 
-        void setException(Exception exception) {
+        private void setException(Exception exception) {
             this.state = FAILED;
             callback.accept(null, Optional.of(exception));
             synchronized (lock) {
