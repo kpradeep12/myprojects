@@ -13,6 +13,7 @@ public class MergeSort{
         }
     }
     public void merge(int[] input, int low, int mid, int high){
+        System.out.printf("%d %d %d", low, mid, high);
         Queue<Integer> fir = new LinkedList<>();
         Queue<Integer> sec = new LinkedList<>();
         IntStream.range(low, mid+1).forEach(i -> fir.offer(input[i]));
