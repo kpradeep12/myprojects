@@ -36,4 +36,24 @@ public class Traversal{
             });
         }
     }
+    public static boolean isConnected(Graph graph, Node src, Node dest){
+        List<Node> visited = new ArrayList<>();
+        Queue<Node> queue = new LinkedList<>();
+        visited.add(src);
+        queue.offer(src);
+        while(!queue.isEmpty()){
+            Node node = queue.poll();
+            LinkedList<Node> nodes = graph.getMap().get(node.data);
+            for(Node element: nodes){
+                if(element.equals(dest)){
+                    return true;
+                }
+                if(!visited.contains(element)){
+                    visited.add(element);
+                    queue.offer(element);
+                }
+            };
+        }
+        return false;
+    }
 }

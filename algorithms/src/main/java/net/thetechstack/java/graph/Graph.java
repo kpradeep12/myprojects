@@ -17,12 +17,15 @@ class Node{
 
 public class Graph{
     Map<Integer, LinkedList<Node>> map = new HashMap<>();
-    Graph(int size){
+    boolean isDirected;
+    Graph(int size, boolean isDirected){
+        this.isDirected = isDirected;
         IntStream.range(1, size+1).forEach(i -> map.put(i, new LinkedList<Node>()));
     }
     Graph addEdge(int src, int dest){
         map.get(src).add(new Node(dest));
-        map.get(dest).add(new Node(src));
+        if(!isDirected)
+            map.get(dest).add(new Node(src));
         return this;
     }
     public void print(){
@@ -36,11 +39,12 @@ public class Graph{
     }
     public Map<Integer, LinkedList<Node>> getMap(){ return this.map; }
     public static void main(String args[]){
-        Graph graph = new Graph(6);
+        Graph graph = new Graph(6, false);
         graph.addEdge(1, 2).addEdge(2, 3).addEdge(2, 4).addEdge(3, 5).addEdge(4,6).print();
         System.out.println("---");
         Traversal.bfs(graph, new Node(1));
         System.out.println("---");
-        Traversal.dfs(graph, new Node(1));
+        //Traversal.dfs(graph, new Node(1));
+        System.out.println(Traversal.isConnected(graph, new Node(1), new Node(6)));
     }
 }
